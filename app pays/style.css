@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5;
+    text-transform: uppercase;
+    border-radius: 6px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: beige;
+}
+main {
+    width: 35%;
+}
+img {
+    margin-top: 10px;
+    height: 250px;
+    width: 100%;
+    border-radius: 0;
+    object-fit: cover;
+      box-shadow: 0 0 5px black;
+    transition: 0.5s;  
+}
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+input {
+    width: calc(100%-100px);
+    padding: 10px;
+    outline: 0;
+}
+button {
+    width: 90px;
+    cursor: pointer;
+    color: red;
+    background-color: transparent;
+}
+input , button {
+    border: 0;
+}
+div {
+    padding: 20px;
+    border: 1px solid blanchedalmond;
+    background-color: blanchedalmond;
+    margin: 10px 0;
+    box-shadow: 0 0 5px black;
+    animation: identifier 0.5s ease-in-out;    
+}
+p {
+    margin-top: 5px;
+}
+span {
+    color: darkred;
+}
+@keyframes identifier {
+    from {
+        transform: translateY(100px);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
